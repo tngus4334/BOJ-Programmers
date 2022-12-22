@@ -1,14 +1,14 @@
-s = list(map(str, input()))
-t = list(map(str, input()))
+S = list(input())
+T = list(input())
 
-while len(s) != len(t):
-    if t[-1] == 'A':
-        t = t[:-1]
-    elif t[-1] == 'B':
-        t = t[:-1]
-        t = t[::-1]
+while len(S) != len(T):
+    if T[-1] == 'A':
+        T = T[:-1]
+    elif T[-1] == 'B':
+        T = T[:-1]
+        T = T[::-1]
 
-if s == t:
+if S == T:
     print(1)
 else:
     print(0)
