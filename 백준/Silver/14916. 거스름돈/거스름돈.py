@@ -3,16 +3,13 @@ answer = 0
 
 while True:
     if n % 5 == 0:
-        answer += n//5
+        answer += n // 5
+        print(answer)
         break
     else:
         n -= 2
         answer += 1
 
     if n < 0:
+        print(-1)
         break
-
-if n < 0:
-    print(-1)
-else:
-    print(answer)
