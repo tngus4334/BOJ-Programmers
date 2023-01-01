@@ -6,6 +6,6 @@ def solution(food):
         else :
             for _ in range(food[i]//2):
                 answer += str(i)
-    answer += str(0)
+    answer += '0'
     answer += answer[:-1][::-1]
     return answer
