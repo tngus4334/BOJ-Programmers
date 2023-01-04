@@ -10,6 +10,6 @@ for _ in range(n):
         if len(hip) == 0: # 리스트가 비어있으면
             print(0) # 0 출력
         else:
-            print(heapq.heappop(hip)[1])# 최솟값 출력후 삭제하기
+            print(heapq.heappop(hip)[1])
     else:
         heapq.heappush(hip, (abs(m), m))
